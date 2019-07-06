@@ -3,11 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "build": "webpack"
+  },
   "author": "ding.mei",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^3.0.0",
+    "csv-loader": "^3.0.2",
+    "file-loader": "^4.0.0",
+    "loadsh": "0.0.4",
+    "lodash": "^4.17.11",
+    "style-loader": "^0.23.1",
     "webpack": "^4.33.0",
-    "webpack-cli": "^3.3.4"
+    "webpack-cli": "^3.3.4",
+    "xml-loader": "^1.2.1"
   }
 }
